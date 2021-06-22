@@ -1,0 +1,182 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+a{
+	text-decoration: none;
+	margin:0;
+}
+
+
+
+.header_area{
+	background-color: #34495E;
+	padding:3rem 0;
+	text-align: center;
+}
+
+.header_area ul.menu{
+	list-style-type: none;
+	color:#fff;
+	padding:0;
+}
+
+.header_area ul.menu li{
+	border-bottom: 1px solid #282923;
+	padding: .5rem 0;
+}
+
+.header_area ul.menu li:last-child{
+	border-bottom: 0;
+}
+
+.header_area  ul.menu li a{
+	font-size: 1.5rem;
+	padding:1rem 2rem;
+	color:#fff;
+	text-transform: capitalize;
+}
+.header_area  ul.menu li:hover a{
+	color:red;
+}
+
+#menu2{
+	background: #A7DF56;
+	padding: 3rem;
+}
+
+#menu2 ul{
+	list-style-type: none;
+	padding:0 20%;
+}
+
+#menu2 ul li{
+	text-align: center;
+}
+
+
+#menu2 ul li:nth-child(even) {
+	padding:1rem 2rem;
+	background: #fff;
+	color:#000;
+}
+
+#menu2 ul li:nth-child(even) a {
+	
+	color:#000;
+}
+
+#menu2 ul li:nth-child(odd) {
+	padding:1rem 2rem;
+	background: #000;
+	color:#fff;
+}
+
+#menu2 ul li:nth-child(odd) a {
+
+	color:#fff;
+}
+
+#menu2 ul li a{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+
+#menu2 ul li a{
+	
+}
+
+
+.content_area{
+	margin:0;
+	padding:3rem;
+	background-color: #9B59B6;
+	text-align: center;
+	color:#fff;
+}
+
+.content_area p{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	word-spacing: 1px;
+	margin:1rem 0;
+}
+
+.content_area p:hover, a:hover {
+	color: red !important;
+}
+.content_area p:first-child{
+	padding: .5rem 1rem;
+	background: #000;
+	color:#fff;
+}
+
+.content_area p:nth-child(2){
+	padding: .5rem 1rem;
+	background: #fff;
+	color:#000;
+}
+
+.content_area p:nth-child(3){
+	padding: .5rem 1rem;
+	background: #A7DF56;
+	color:#fff;
+}
+
+.content_area p:nth-child(4){
+	padding: .5rem 1rem;
+	background: #036FDB;
+	color:#000;
+}
+
+.content_area p:nth-child(5){
+	padding: .5rem 1rem;
+	background: #FE3349;
+	color:#fff;
+}
+
+.content_area p:last-child{
+	padding: .5rem 1rem;
+	background: #25A872;
+	color:#000;
+}
+
+.content ul {
+	list-style-type: none;
+	margin:2rem;
+}
+
+.content ul li{
+	padding:1rem
+}
+
+.content ul li:nth-child(1) a{
+	color: #1A8754;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.content ul li:nth-child(2) a{
+	color: #F1C40F;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.content ul li:nth-child(3) a{
+	color: #969DA8;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+
+
+.footer{
+	background:#2C3E50;
+}
+
+.footer p{
+	font-size: 1.5rem;
+}
